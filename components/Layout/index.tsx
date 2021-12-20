@@ -71,7 +71,7 @@ const Layout = ({ children }: { children: JSX.Element }): ReactElement => {
       <main className={styles.main}>
         <header className={styles.header}>
           <Link href={`/`} passHref>
-            <div className={`${styles.top} ${styles.logo}`}>MyWallet</div>
+            <div className={`${styles.top} ${styles.logo}`}>FrancisWallet</div>
           </Link>
 
           <Menu
